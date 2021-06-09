@@ -1,0 +1,84 @@
+/* over write for svg icons */
+.a1 {
+  padding: 40px 0;
+}
+.a1 .link {
+  display: inline-block;
+  padding: 10px 0;
+}
+.a1 .link:hover,
+.a1 .link:focus {
+  text-decoration: none;
+}
+.a1 .svg {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.a1 .svg svg {
+  fill: #797979;
+}
+.a1 .svg.circled {
+  border: 1px solid #797979;
+}
+.a1 .text {
+  position: relative;
+  bottom: 14px;
+  font-weight: normal;
+  color: #797979;
+  padding-left: 30px;
+  font-size: 20px;
+  font-size: 1.4287rem;
+}
+/* over write for svg icons END*/
+/* OL tag styling */
+ol {
+  list-style-type: decimal;
+  margin: 20px;
+}
+/* UL tag styling */
+section .list {
+  list-style-type: disc;
+  margin: 10px 20px;
+}
+.panel,
+.pullout {
+  padding: 60px 0;
+}
+.steps-section {
+  padding: 60px 0;
+}
+.spacer {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.no-space {
+  padding: 0;
+}
+html[data-device-type=portable] header[role=banner].pp-header+#main>section:not(.hero-pop-out).pullout.p1:first-of-type, 
+html[data-device-type=dedicated] header[role=banner].pp-header+#main>section:not(.hero-pop-out).pullout.p1:first-of-type{
+    padding-top: 112px;
+}
+html[data-device-type="mobile"] .a1 .text {
+  padding-left: 10px;
+  font-size: 15px;
+  font-size: 1.071rem;
+}
+html[data-device-type="mobile"] .a1 .svg {
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+}
+html[data-device-type="mobile"] .a1 .svg svg {
+  width: 73%;
+  height: 73%;
+  padding: 5px;
+}
+html[data-device-type="mobile"] .panel,
+html[data-device-type="mobile"] .pullout {
+  padding: 30px 0;
+}
+
+.tp2{margin-bottom:30px}html[data-device-type="dedicated"] .p1,html[data-device-type="portable"] .p1{margin-top:30px}html[data-device-type="dedicated"] .p1 .pulloutPara,html[data-device-type="portable"] .p1 .pulloutPara{padding-bottom:0;font-size:20px;font-size:1.4287rem}html[data-device-type="dedicated"] 
+.tp2 .contentHead,html[data-device-type="portable"] .tp2 .contentHead{padding-bottom:30px}
+
